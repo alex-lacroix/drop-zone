@@ -1,11 +1,59 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Drop Zone</title>
-
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&family=Rozha+One&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/css/reset.css">
+    <link rel="stylesheet" href="/src/css/style.css">
+    <script async type="text/javascript" src="/src/js/countdown.js"></script>
+    <title>Drop Zone</title>
 </head>
+
 <body>
+    <div class="container">
+        <header>
+            <span class="drop-text bw">DROP</span>
+            <span class="zone-text bw">ZONE</span>
+        </header>
+
+        <section class="content">
+            <h2>LEEZY BOOST 103</h2>
+
+            <div class="countdown">
+                <div class="timer-container">
+                    <div class="timer-panels">
+                        <h3 class="days-timer-1 bw"></h3>
+                        <h3 class="days-timer-2 bw"></h3>
+                    </div> 
+                    <span class="unit">DAYS</span>
+                </div>
+                <div class="timer-container">
+                    <div class="timer-panels">
+                        <h3 class="hours-timer-1 bw"></h3>
+                        <h3 class="hours-timer-2 bw"></h3>
+                    </div>  
+                    <span class="unit">HOURS</span>
+                </div>
+                <div class="timer-container">
+                    <div class="timer-panels">
+                        <h3 class="mins-timer-1 bw"></h3>
+                        <h3 class="mins-timer-2 bw"></h3>
+                    </div>          
+                    <span class="unit">MINS</span>
+                </div>
+                <div class="timer-container">
+                    <div class="timer-panels">
+                        <h3 class="secs-timer-1 bw"></h3>
+                        <h3 class="secs-timer-2 bw"></h3>
+                    </div>      
+                    <span class="unit">SECS</span>
+                </div>
+            </div>
+
+            <p class="tagline">UNTIL DROP</p>
+        </section>     
+    </div>
 </body>
+
 </html>

@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Rozha+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap');
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 900;
+    letter-spacing: 0.22rem;
+}
+
+h3 {
+    align-items: center;
+    display: flex;
+    font-family: "Rozha One", serif;
+    font-size: 1.5rem;
+    height: 2.5rem;
+    justify-content: center;
+    margin: 0 0.2rem;
+    width: 2rem;
+}
+
+.bw {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.container {
+    background-image: url(../../public/landing.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.drop-text, .zone-text { 
+    font-family: "Rozha One", serif;
+    font-size: 2.3rem;
+    letter-spacing: 0.3rem;  
+    padding: 0.2rem 0.6rem 0.2rem 0.85rem;
+}
+
+.drop-text {
+    position: absolute;
+    right: 3rem;
+    top: 2rem;
+}
+
+.zone-text {
+    position: absolute;
+    right: 1.7rem;
+    top: 5.2rem;  
+}
+
+.content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+    left: 50%;
+    margin: 0;
+    position: absolute;
+    top: 83%;
+    transform: translate(-50%, -50%); 
+}
+
+.countdown {
+    display: flex;
+    margin-top: 1.7rem;
+}
+
+.timer-container {
+    margin: 0 0.2rem;
+    text-align: center;
+}
+
+.timer-panels {
+    display: flex;
+    margin-bottom: 0.5rem;
+}
+
+.unit {
+    font-family: "Roboto", sans-serif;
+    font-size: 0.95rem;
+    font-weight: 900;
+    letter-spacing: 0.1rem;
+    text-align: center;
+}
+
+.tagline {
+    font-size: 1.2rem;
+    font-weight: 400;
+    letter-spacing: 0.13rem;
+    margin-top: 1.65rem;
+}
+
+@media (min-width: 1024px) {
+    
+     h2 {
+        font-size: 3rem;
+        letter-spacing: 0.45rem;
+     }
+
+     h3 {
+        font-size: 3rem;
+        height: 4.5rem;
+        margin: 0 0.35rem;
+        width: 3.5rem;
+     }
+
+     .content {
+         top: 55%;
+         left: 69%;
+     }
+
+     .countdown {
+         margin-top: 2rem;
+     }
+
+     .timer-container {
+         margin: 0 0.5rem;
+     }
+
+     .timer-panels {
+         margin-bottom: 1rem;
+     }
+
+     .unit {
+        font-size: 1.5rem;
+        letter-spacing: 0.25rem;
+     }
+
+     .tagline {
+         margin-top: 2.1rem;
+     }
+    
+}
